@@ -1,9 +1,5 @@
-# SFU CMPT 419 Project Template -- Replace with project title
-This repository is a template for your CMPT 419 course project.
-Replace the title with your project title, and **add a snappy acronym that people remember (mnemonic)**.
-
-Add a 1-2 line summary of your project here.
-working on it!
+# Transform between ITA, Fitzpatrick and Monk Skin Tone Scale [TIFM]
+This project provides code to convert between three major skin color models: Individual Typology Angle (ITA), Fitzpatrick, and the Monk Skin Tone Scale. By enabling interoperability between these representations, there is a potential to support research in dermatology, computer vision, and fairness in AI.
 
 ## Important Links
 

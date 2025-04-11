@@ -1,0 +1,23 @@
+Epoch 1/15 - Train Loss: 1.3595, Train Acc: 0.4017 - Val Loss: 1.2544, Val Acc: 0.4081
+Epoch 2/15 - Train Loss: 1.2405, Train Acc: 0.4547 - Val Loss: 1.2147, Val Acc: 0.4611
+Epoch 3/15 - Train Loss: 1.2089, Train Acc: 0.4701 - Val Loss: 1.2091, Val Acc: 0.4739
+Epoch 4/15 - Train Loss: 1.1895, Train Acc: 0.4783 - Val Loss: 1.2471, Val Acc: 0.4546
+Epoch 5/15 - Train Loss: 1.1690, Train Acc: 0.4952 - Val Loss: 1.1437, Val Acc: 0.4945
+Epoch 6/15 - Train Loss: 1.1573, Train Acc: 0.4974 - Val Loss: 1.1825, Val Acc: 0.4877
+Epoch 7/15 - Train Loss: 1.1413, Train Acc: 0.5014 - Val Loss: 1.1756, Val Acc: 0.4789
+Epoch 8/15 - Train Loss: 1.1263, Train Acc: 0.5092 - Val Loss: 1.1522, Val Acc: 0.5008
+Epoch 9/15 - Train Loss: 1.1139, Train Acc: 0.5212 - Val Loss: 1.2112, Val Acc: 0.4618
+Epoch 10/15 - Train Loss: 1.0993, Train Acc: 0.5252 - Val Loss: 1.1894, Val Acc: 0.4986
+Epoch 11/15 - Train Loss: 1.0863, Train Acc: 0.5320 - Val Loss: 1.1922, Val Acc: 0.4936
+Epoch 12/15 - Train Loss: 1.0683, Train Acc: 0.5363 - Val Loss: 1.1922, Val Acc: 0.4827
+Epoch 13/15 - Train Loss: 1.0554, Train Acc: 0.5407 - Val Loss: 1.2400, Val Acc: 0.5008
+Early stopping triggered.
+Final Best Model -> Val Loss: 1.1522, Val Acc: 0.5008
+Confusion Matrix:
+ [[266 298  19   5   1   0]
+ [ 95 686 138  34   8   1]
+ [ 12 253 232 120  33  12]
+ [  4  74 134 195 132  17]
+ [  1  16  17  77 153  43]
+ [  1   9   0   7  38  72]]
+Validation Macro-AUC: 0.8435

@@ -1,3 +1,7 @@
+![LICENSE](https://img.shields.io/badge/LICENSE-AGPL--3.0-blue)
+![STATUS](https://img.shields.io/badge/Status-Completed-brightgreen)
+[![YouTube](https://img.shields.io/badge/Demo%20on-YouTube-red?logo=youtube)]()
+
 # Transform between ITA, Fitzpatrick and Monk Skin Tone Scale [TIFM]
 This project provides code to convert between three major skin color models: Individual Typology Angle (ITA), Fitzpatrick, and the Monk Skin Tone Scale. By enabling interoperability between these representations, there is a potential to support research in dermatology, computer vision, and fairness in AI.
 

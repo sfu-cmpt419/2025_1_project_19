@@ -5,11 +5,11 @@ import pandas as pd
 
 # Define the folders and labels
 folder_label_map = {
-    'Black': '/Users/aryaman_bahuguna/Documents/Spring2025/CMPT419/project/2025_1_project_19/datasets/small-kaggle/Black/',
-    'Brown': '/Users/aryaman_bahuguna/Documents/Spring2025/CMPT419/project/2025_1_project_19/datasets/small-kaggle/Brown/',
-    'White': '/Users/aryaman_bahuguna/Documents/Spring2025/CMPT419/project/2025_1_project_19/datasets/small-kaggle/White/'
+    'Black': '../../datasets/small-kaggle/Black/',
+    'Brown': '../../datasets/small-kaggle/Brown/',
+    'White': '../../datasets/small-kaggle/White/'
 }
-out_path = '/Users/aryaman_bahuguna/Documents/Spring2025/CMPT419/project/2025_1_project_19/outputs/'
+out_path = '../../outputs/ita-outputs/'
 
 # -- helper functions -- #
 

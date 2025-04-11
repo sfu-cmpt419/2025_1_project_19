@@ -1,0 +1,12 @@
+Epoch 1/15 - Train Loss: 2.1921, Train Acc: 0.3639 - Val Loss: 1.9895, Val Acc: 0.7752
+Epoch 2/15 - Train Loss: 1.7912, Train Acc: 0.8294 - Val Loss: 1.3857, Val Acc: 0.9430
+Epoch 3/15 - Train Loss: 1.1900, Train Acc: 0.9454 - Val Loss: 0.6933, Val Acc: 0.9966
+Epoch 4/15 - Train Loss: 0.6504, Train Acc: 0.9723 - Val Loss: 0.3016, Val Acc: 1.0000
+Epoch 5/15 - Train Loss: 0.3227, Train Acc: 0.9832 - Val Loss: 0.1290, Val Acc: 1.0000
+Epoch 6/15 - Train Loss: 0.1473, Train Acc: 0.9950 - Val Loss: 0.0637, Val Acc: 1.0000
+Epoch 7/15 - Train Loss: 0.0863, Train Acc: 0.9992 - Val Loss: 0.0384, Val Acc: 1.0000
+Epoch 8/15 - Train Loss: 0.0468, Train Acc: 0.9992 - Val Loss: 0.0272, Val Acc: 1.0000
+Epoch 9/15 - Train Loss: 0.0381, Train Acc: 1.0000 - Val Loss: 0.0211, Val Acc: 1.0000
+Early stopping triggered.
+Best Model Validation Accuracy: 1.0000
+Validation Macro-AUC: 1.0000

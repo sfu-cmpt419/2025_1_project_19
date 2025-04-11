@@ -50,7 +50,7 @@ for label, path in folder_label_map.items():
             img_bgr = cv.imread(image_path)
 
             if img_bgr is None:
-                print(f"Warning: Unable to read {filename} in {label}")
+                print(f"⚠️ [WARNING] Unable to read {filename} in {label}")
                 continue
 
             img_lab = cv.cvtColor(img_bgr, cv.COLOR_BGR2LAB)
@@ -62,7 +62,7 @@ for label, path in folder_label_map.items():
             b_vals = img_lab[:, :, 2][skin_mask]
 
             if len(l_vals) == 0 or len(b_vals) == 0:
-                print(f"Warning: No skin pixels found in {filename}")
+                print(f"⚠️ [WARNING] No skin pixels found in {filename}")
                 continue
 
             l_mean = np.mean(l_vals)
@@ -85,11 +85,11 @@ for label, path in folder_label_map.items():
             })
 
         except Exception as e:
-            print(f"Error processing {filename}: {e}")
+            print(f"⚠️ [ERROR] Processing {filename}: {e}")
 
 # Save results
 csv_path = os.path.join(out_path, 'ita-fitz-monk.csv')
 df = pd.DataFrame(results)
 df.to_csv(csv_path, index=False)
 
-print("Successfull! ITA values saved to 'ita-fitz-monk.csv'")
+print(f"✅ [DONE] ITA values saved to '{out_path}ita-fitz-monk.csv'")

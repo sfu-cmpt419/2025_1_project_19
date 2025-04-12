@@ -33,8 +33,10 @@ some motivational text here
 
 
 ## 📽️ Demo Video
-[![Demo Video](https://img.youtube.com/vi/2g0vX1q4x6E/0.jpg)](https://www.youtube.com/watch?v=2g0vX1q4x6E)
-[![YouTube](https://img.shields.io/badge/Demo%20on-YouTube-red?logo=youtube)](https://www.youtube.com/watch?v=2g0vX1q4x6E)
+
+[![YouTube](https://img.shields.io/badge/Watch%20on-YouTube-red?logo=youtube)](https://youtu.be/SyvPoIzR_4A)
+[![Demo Video](./images/yt-thumbnail.png)](https://youtu.be/SyvPoIzR_4A)
+
 
 ## 📁 Directory Structure
 ```bash

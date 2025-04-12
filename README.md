@@ -74,7 +74,7 @@ The ITA score is calculated using the `ita.py` module. We generate the results o
 cd code/ita
 python3 ita.py
 ```
-Also see [ita.ipynb](code/ita/ita.ipynb) for detailed iterations of code.
+Also see [ita.ipynb](code/ita/ita.ipynb) for detailed iterations of the code.
 
 ### 2. Fitzpatrick Score Calculation
 The Fitzpatrick score is predicted using a deep learning model in `fitzpatrick.py` module. The models are available under `code/fitzpatrick/models` for anyone to use. We trained [Efficient-NetV2](https://huggingface.co/timm/efficientnetv2_rw_m.agc_in1k) on the [fitzpatrick17k](https://github.com/mattgroh/fitzpatrick17k) dataset (also,available in the `datasets` directory downloadable through google drive link above).
